@@ -13,6 +13,9 @@ body > .row {
   color: wheat;
   text-transform: capitalize;
   padding: 10px;
+  text-align: center;
+  line-height: 80px;
+  vertical-align: middle;
 }
 
 .row > .nested {
