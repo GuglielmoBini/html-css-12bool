@@ -1,1 +1,20 @@
+body {
+  font-family: sans-serif;
+}
 
+body > .row {
+  margin-bottom: 50px;
+}
+
+.row > [class^="col"] {
+  min-height: 100px;
+  background-color: blue;
+  border: white solid 1px;
+  color: wheat;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.row > .nested {
+  background-color: green;
+}
